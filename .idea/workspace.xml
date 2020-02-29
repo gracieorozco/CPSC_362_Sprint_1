@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adf3c026-ac05-4f7e-ba4c-52a63019c520" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YUsJKx4S87bqFSOOJBB4fEFQTt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gracie\Desktop\Practice\362prac\templates\not_used" />
+      <recent name="C:\Users\Gracie\Desktop\Practice\362prac\templates\user_management" />
+      <recent name="C:\Users\Gracie\Desktop\Practice\362prac\templates\product_management" />
+      <recent name="C:\Users\Gracie\Desktop\Practice\362prac\templates\item_management" />
+      <recent name="C:\Users\Gracie\Desktop\Practice\362prac\templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adf3c026-ac05-4f7e-ba4c-52a63019c520" name="Default Changelist" comment="" />
+      <created>1583008433090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583008433090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="904" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583012269602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="904" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583012269602" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1583018504356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583018504356" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1583018652478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583018652478" />
+    <state x="848" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583018455752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="848" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583018455752" />
+  </component>
+</project>
