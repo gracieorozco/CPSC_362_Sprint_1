@@ -1,4 +1,4 @@
-#!C:\Users\Gracie\Desktop\Practice\362_project_1\venv\Scripts\python.exe
+#!C:\Users\Gracie\Documents\CPSC_362_Sprint_1\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3'
 __requires__ = 'pip==19.0.3'
 import re

@@ -12,37 +12,52 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="w3-bar w3-blue">
-    <a href="/" class="w3-button w3-bar-item">Home</a>
-    <a href="/login" class="w3-button w3-bar-item">Login</a>
-    <a href="/profile" class="w3-button w3-bar-item">Tour</a>
-    <a href="/manage" class="w3-button w3-bar-item">Database</a>
-    <a href="/about" class="w3-button w3-bar-item">About</a>
-</nav>
-    <h1>Home</h1>
-    <p>Press one of the buttons on top</p>
-    <h2>Features</h2>
-    <h3>Login</h3>
-    <p>
-        The login system works if you type in an existing user's username
-        and password. To find that, click on the tour tab to see the list
-        of users. Within login, you can also create a new user. The reset
-        password feature will be implemented at a later time.
-    </p>
-    <h3>Tour</h3>
-    <p>
-        Displays a list of users. The password will not be shown in the
-        final version, but it's there to show that how the login system works.
-    </p>
-    <h3>Database</h3>
-    <p>
-        The product systems allows the user to create, delete, and update
-        items in the database. The list of items are also displayed within
-        the same page.
-    </p>
-    <h4>About</h4>
-    <p>
-        A page that describes what our project does and what our goals are.
-    </p>
+    <nav class="w3-bar w3-blue">
+        <a href="/" class="w3-button w3-bar-item">Home</a>
+        <a href="/login" class="w3-button w3-bar-item">Login</a>
+        <a href="/profile" class="w3-button w3-bar-item">Tour</a>
+        <a href="/manage" class="w3-button w3-bar-item">Database</a>
+        <a href="/about" class="w3-button w3-bar-item">About</a>
+    </nav>
+    <div class="container col-10 ">
+        <div class="col-md">
+            <br>
+            <h1>Home</h1>
+            <p>Press one of the buttons on top</p>
+            <h2>Features</h2>
+            <ul>
+                <li>
+                    <h4>Login</h4>
+                    <p>
+                        The login system works if you type in an existing user's username
+                        and password. To find that, click on the tour tab to see the list
+                        of users. Within login, you can also create a new user. Filling in
+                        the forms will create a new user.
+                    </p>
+                </li>
+                <li>
+                    <h4>Tour</h4>
+                    <p>
+                        Displays a list of users. The password will not be shown in the
+                        final version, but it's there to show that how the login system works.
+                    </p>
+                </li>
+                <li>
+                    <h4>Database</h4>
+                    <p>
+                        The product systems allows the user to create, delete, and update
+                        items in the database. The list of items are also displayed within
+                        the same page. Filling out the forms will generate the product.
+                    </p>
+                </li>
+                <li>
+                    <h4>About</h4>
+                    <p>
+                        A page that describes what our project does and what our goals are.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

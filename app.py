@@ -7,7 +7,7 @@ db = SQLAlchemy(app)
 
 
 class User(db.Model):
-    id = db.Column(db.String, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(200), nullable=False)
     email = db.Column(db.String(200), nullable=False)
     first_name = db.Column(db.String(200), nullable=False)
@@ -48,12 +48,13 @@ def login():
                     name_found = True
                     if new_password == user.password:
                         password_found_found = True
-                        return redirect('/profile')
+                        return render_template('/user_management/login_success.html')
                     else:
-                        return 'Wrong password'
+                        error = 'Wrong password'
+                        return render_template('/user_management/login_fail.html', error=error)
                 else:
-                    return 'User not exist'
-
+                    error = 'User not exist'
+                    return render_template('/user_management/login_fail.html', error=error)
         except:
             return 'Error'
 
@@ -87,6 +88,16 @@ def new_user():
 @app.route('/forgot_password')
 def forgot_password():
     return render_template('/user_management/forgot_password.html')
+
+
+@app.route('/login_success')
+def login_success():
+    return render_template('/user_management/login_success.html')
+
+
+@app.route('/login_fail')
+def login_fail():
+    return render_template('/user_management/login_fail.html')
 
 
 @app.route('/manage', methods=['POST', 'GET'])

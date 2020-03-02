@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <head>
-    <title>Profile</title>
+    <title>Overview</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -19,33 +19,15 @@
         <a href="/manage" class="w3-button w3-bar-item">Database</a>
         <a href="/about" class="w3-button w3-bar-item">About</a>
     </nav>
-    <div class="container">
-        <br>
-        <h1>User List</h1>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Username</th>
-                    <th>Email</th>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Password</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for user in user_list %}
-                <tr>
-                    <td>{{ user.id }}</td>
-                    <td>{{ user.username }}</td>
-                    <td>{{ user.email }}</td>
-                    <td>{{ user.first_name }}</td>
-                    <td>{{ user.last_name }}</td>
-                    <td>{{ user.password }}</td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+    <div class="container col-7 text-center">
+        <div class="col-md">
+            <br>
+            <h1>Login Success</h1>
+            <p>The button below will take you to the user list page. </p>
+            <a href="/profile">
+                <button class="btn btn-lg btn-primary">Go</button>
+            </a>
+        </div>
     </div>
 </body>
 </html>

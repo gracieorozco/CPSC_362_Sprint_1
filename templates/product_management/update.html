@@ -19,21 +19,31 @@
         <a href="/manage" class="w3-button w3-bar-item">Database</a>
         <a href="/about" class="w3-button w3-bar-item">About</a>
     </nav>
-    <div class="content">
-        <h1>Update Product</h1>
-        <form action="/update/{{product.id}}" method="POST">
-            <p>ID</p>
-            <input type="text" name="id-input" value="{{product.id}}">
-            <p>Name of Product</p>
-            <input type="text" name="name-input" value="{{product.name}}">
-            <p>Name of Manufacturer</p>
-            <input type="text" name="manufacturer-input" value="{{product.manufacturer}}">
-            <p>Quantity</p>
-            <input type="text" name="quantity-input" value="{{product.quantity}}">
-            <br>
-            <br>
-            <input type="submit" value="Update">
-        </form>
+    <div class="container col-5 text-center">
+        <br>
+        <div class="col-md">
+            <h1>Update Product</h1>
+            <form action="/update/{{product.id}}" method="POST">
+                <br>
+                <div class="form-label-group">
+                    <input class="form-control" type="text" name="id-input" placeholder="Product ID">
+                </div>
+                <br>
+                <div class="form-label-group">
+                    <input class="form-control" type="text" name="name-input" placeholder="Name of Product">
+                </div>
+                <br>
+                <div class="form-label-group">
+                    <input class="form-control" type="text" name="manufacturer-input" placeholder="Name of Manufacturer">
+                </div>
+                <br>
+                <div class="form-label-group">
+                    <input class="form-control" type="text" name="quantity-input" placeholder="Quantity">
+                </div>
+                <br>
+                <input class="btn btn-lg btn-primary" type="submit" value="Update">
+            </form>
+        </div>
     </div>
 </body>
 </html>

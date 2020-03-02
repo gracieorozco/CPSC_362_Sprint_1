@@ -12,30 +12,47 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="w3-bar w3-blue">
-    <a href="/" class="w3-button w3-bar-item">Home</a>
-    <a href="/login" class="w3-button w3-bar-item">Login</a>
-    <a href="/profile" class="w3-button w3-bar-item">Tour</a>
-    <a href="/manage" class="w3-button w3-bar-item">Database</a>
-    <a href="/about" class="w3-button w3-bar-item">About</a>
-</nav>
-   <h1>New User</h1>
-	<form action="/new_user" method="POST">
-		<p>Employee ID:</p>
-		<input type="text" name="id-input">
-		<p>Username:</p>
-		<input type="text" name="username-input">
-		<p>Email:</p>
-		<input type="text" name="email-input">
-		<p>First Name:</p>
-		<input type="text" name="first-name-input">
-		<p>Last Name:</p>
-		<input type="text" name="last-name-input">
-		<p>Password: </p>
-		<input type="password" name="password-input">
-		<br><br>
-		<input type="submit" value="Sign up">
-		<br>
-	</form>
+	<nav class="w3-bar w3-blue">
+		<a href="/" class="w3-button w3-bar-item">Home</a>
+		<a href="/login" class="w3-button w3-bar-item">Login</a>
+		<a href="/profile" class="w3-button w3-bar-item">Tour</a>
+		<a href="/manage" class="w3-button w3-bar-item">Database</a>
+		<a href="/about" class="w3-button w3-bar-item">About</a>
+	</nav>
+    <div class="container col-5 text-center">
+        <div class="col-md">
+			<br>
+		   <h1>New User</h1>
+			<form action="/new_user" method="POST">
+				<br>
+				<div class="form-label-group">
+                    <input class="form-control" type="text" name="id-input" placeholder="Employee ID">
+                </div>
+				<br>
+				<div class="form-label-group">
+                    <input class="form-control" type="text" name="username-input" placeholder="Username">
+                </div>
+				<br>
+				<div class="form-label-group">
+                    <input class="form-control" type="text" name="email-input" placeholder="Email">
+                </div>
+				<br>
+				<div class="form-label-group">
+					<input class="form-control" type="text" name="first-name-input" placeholder="First Name">
+				</div>
+				<br>
+				<div class="form-label-group">
+					<input class="form-control" type="text" name="last-name-input" placeholder="Last Name">
+				</div>
+				<br>
+				<div class="form-label-group">
+                    <input class="form-control" type="text" name="password-input" placeholder="Password">
+                </div>
+				<br>
+				<input class="btn btn-lg btn-primary" type="submit" value="Sign up">
+				<br>
+			</form>
+		</div>
+	</div>
 </body>
 </html>

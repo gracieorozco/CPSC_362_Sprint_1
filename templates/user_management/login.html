@@ -12,25 +12,33 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="w3-bar w3-blue">
-    <a href="/" class="w3-button w3-bar-item">Home</a>
-    <a href="/login" class="w3-button w3-bar-item">Login</a>
-    <a href="/profile" class="w3-button w3-bar-item">Tour</a>
-    <a href="/manage" class="w3-button w3-bar-item">Database</a>
-    <a href="/about" class="w3-button w3-bar-item">About</a>
-</nav>
-    <h1>Login</h1>
-    <form action="/login" method="POST">
-        <p>Username:</p>
-        <input type="text" name="username-input">
-        <p>Password: </p>
-        <input type="password" name="password-input">
-        <br><br>
-        <input type="submit">
-    </form>
-    <br>
-    <br>
-    <p><a href="/new_user">Sign up</a></p>
-	<p><a href="/forgot_password"> Forgot password? </a></p>
+    <nav class="w3-bar w3-blue">
+        <a href="/" class="w3-button w3-bar-item">Home</a>
+        <a href="/login" class="w3-button w3-bar-item">Login</a>
+        <a href="/profile" class="w3-button w3-bar-item">Tour</a>
+        <a href="/manage" class="w3-button w3-bar-item">Database</a>
+        <a href="/about" class="w3-button w3-bar-item">About</a>
+    </nav>
+    <div class="container col-3 text-center">
+        <div class="col-md">
+            <br>
+            <h1>Login</h1>
+            <br>
+            <form class="form-signin" action="/login" method="POST">
+                <div class="form-label-group">
+                    <input class="form-control" type="text" name="username-input" placeholder="Username">
+                </div>
+                <br>
+                <div class="form-label-group">
+                    <input class="form-control" type="password" name="password-input" placeholder="Password">
+                </div>
+                <br>
+                <input class="btn btn-lg btn-primary" type="submit">
+            </form>
+            <br>
+            <p><a href="/new_user">Sign up</a></p>
+<!--            <p><a href="/forgot_password"> Forgot password? </a></p>-->
+        </div>
+    </div>
 </body>
 </html>
