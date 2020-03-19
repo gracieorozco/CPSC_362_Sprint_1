@@ -153,9 +153,9 @@ def profile():
     return render_template('/user_management/profile.html', user_list=users)
 
 
-@app.route('/overview')
-def overview():
-    return render_template('overview.html')
+@app.route('/time')
+def time():
+    return render_template('time.html')
 
 
 if __name__ == "__main__":
